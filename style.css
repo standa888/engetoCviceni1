@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: italic;
+    src: url(Fonty/Poppins-Medium.ttf);
+}
+
+body {
+    margin-top: 30px;
+}
+
+.levaStrana {
+    float: left;
+    max-width: 350px;
+    color: #000000;
+
+    margin-left: 20px;
+    border-radius: 30px;
+    
+    overflow: hidden;
+    font-family: italic;
+
+    padding: 20px;
+
+    background: linear-gradient(to right top, #cfd7e1, #abc0db, #87a9d4, #6093cd, #2c7dc6);
+}
+
+.levaStrana span {
+    border: 2px solid black;
+    display: flex;
+    overflow: hidden;
+
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+
+}
+
+.levaStrana h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.levaStrana__obrazek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.levaStrana__vzdelani-spodek {
+    margin-top: 25px;
+}
+
+.levaStrana__jmeno {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.levaStrana__kontakty p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.obrazky {
+    margin-right: 20px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.email {
+    height: 35px;
+    width: 35px;
+
+    margin-right: 25px;
+}
+
+.levaStrana__vzdelani {
+    margin-top: 15px;
+}
+
+.levaStrana__vzdelani p {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.hlavniStrana {
+    margin-left: 500px;
+    padding-top: 20px;
+
+    max-width: 1000px;
+    font-family: italic;
+}
+
+.hlavniStrana__pracovniVysledky, .hlavniStrana__praxe, .hlavniStrana__Reference, .hlavniStrana__dovednosti {
+    margin-bottom: 40px;
+}
+
+.hlavniStrana__dovednosti table {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.druhySloupec {
+    padding-left: 20px;
+}
+
+.vrsek {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.hlavniStrana h2 {
+    display: flex;
+    width: max-content;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.hlavniStrana__dovednosti span {
+    margin-left: 20px;
+}
+
+.hlavniStrana p {
+    margin-bottom: 10px;
+}
+
+.hlavniStrana__praxe div {
+    margin-top: 30px;
+}
